@@ -16,16 +16,17 @@ I'm an Angular developer with 4 years of experience building micro-frontend appl
 
 ## 🚀 Featured project
 
-### [Angular Micro-Frontends with Native Federation](https://github.com/maithreya-sharma/angular-micro-frontend-demo)
+### [Formloom: drag-and-drop form builder](https://github.com/maithreya-sharma/formloom)
 
-A clinical rules console built as a **host shell plus two independently deployed remotes**, composed at runtime with Native Federation on Angular 21.
+Design a form visually, add validation and show/hide rules, try it as a real Angular Reactive Form, and share it as a link. There's no backend.
 
-- An abstract **base-class form layer** with dynamic typed `FormArray`s and custom validators for ranges, overlaps and duplicate pairs
-- A **config-driven detail drawer** that renders any rule type from its JSON
-- **Shared singleton state** across micro-frontends using Signals and RxJS
-- **Jasmine/Karma** unit tests, a **Playwright** end-to-end smoke test, and **GitHub Actions** CI/CD to GitHub Pages
+- A **signal-based store** with undo/redo, where rapid edits merge into a single step
+- **Dynamic typed Reactive Forms** generated at runtime from a JSON schema, with conditional fields that disable themselves when hidden
+- **Angular CDK drag-and-drop**, a live schema linter, and validated JSON import/export
+- Forms **compressed into share links** with the native `CompressionStream`
+- **Jasmine/Karma** unit tests, a **Playwright** end-to-end test, and **GitHub Actions** CI/CD to GitHub Pages
 
-[Live demo](https://maithreya-sharma.github.io/angular-micro-frontend-demo/) · [Code](https://github.com/maithreya-sharma/angular-micro-frontend-demo)
+[Live demo](https://maithreya-sharma.github.io/formloom/) · [Code](https://github.com/maithreya-sharma/formloom)
 
 ---
 
