@@ -14,6 +14,21 @@ I'm an Angular developer with 4 years of experience building micro-frontend appl
 
 ---
 
+## 🚀 Featured project
+
+### [Angular Micro-Frontends with Native Federation](https://github.com/maithreya-sharma/angular-micro-frontend-demo)
+
+A clinical rules console built as a **host shell plus two independently deployed remotes**, composed at runtime with Native Federation on Angular 21.
+
+- An abstract **base-class form layer** with dynamic typed `FormArray`s and custom validators for ranges, overlaps and duplicate pairs
+- A **config-driven detail drawer** that renders any rule type from its JSON
+- **Shared singleton state** across micro-frontends using Signals and RxJS
+- **Jasmine/Karma** unit tests, a **Playwright** end-to-end smoke test, and **GitHub Actions** CI/CD to GitHub Pages
+
+[Live demo](https://maithreya-sharma.github.io/angular-micro-frontend-demo/) · [Code](https://github.com/maithreya-sharma/angular-micro-frontend-demo)
+
+---
+
 ## 🏆 Highlights
 
 - **🔼 Angular v20 → v21 upgrade.** I led the upgrade across 5 micro-frontend repositories. I migrated templates to the new control flow and subscriptions to `takeUntilDestroyed`, and aligned child-app dependencies with the host to prevent shared-library conflicts at runtime.
